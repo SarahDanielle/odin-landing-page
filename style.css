@@ -7,13 +7,23 @@ img {
     height: auto;
 }
 
-.header {
+.section-one {
     background-color: #1F2937;
 }
 
-.logo {
+.header {
     font-size: 24px;
     color: #F9FAF8;
+    display:flex;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 .secondary {
@@ -27,3 +37,11 @@ img {
     color: #F9FAF8;
 }
 
+.container-one {
+    display: flex;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
