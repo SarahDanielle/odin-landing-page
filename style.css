@@ -12,14 +12,23 @@ img {
 }
 
 .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+}
+
+.logo {
     font-size: 24px;
     color: #F9FAF8;
-    display:flex;
 }
 
 ul {
     display: flex;
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
 }
 
 a:link {
