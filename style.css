@@ -76,7 +76,7 @@ a:link {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-bottom: 100px;
+    padding: 0px 300px;
 }
 
 .info-header {
@@ -88,8 +88,9 @@ a:link {
 
 .info-container {
     display: flex;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-between;
+    padding: 0px 300px;
+    gap: 75px;
 }
 
 .info-graphics {
@@ -101,4 +102,21 @@ a:link {
 .text {
     width: 150px;
     height: 150px;
+}
+
+.section-three {
+background-color: #E5E7EB;
+color: #1F2937;
+padding: 100px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quoted {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
 }
