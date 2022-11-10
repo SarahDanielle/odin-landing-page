@@ -69,13 +69,19 @@ a:link {
 }
 
 .button {
+    border: none;
+}
+
+.button,
+.button-two {
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 4px;
-    padding: 4px 16px;
-    border: none;
-    height: 30px;
-    width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 2px 16px;
+    height: 36px;
+    width: 132px;
 }
 
 .section-two {
@@ -135,7 +141,7 @@ padding: 100px 300px;
 .blue {
     background-color:#3882F6;
     color: #F9FAF8;
-    padding: 50px 100px;
+    padding: 50px 120px;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -147,13 +153,7 @@ padding: 100px 300px;
 }
 
 .button-two {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border-radius: 4px;
-    padding: 4px 16px;
     border: 2px solid #F9FAF8;
-    height: 30px;
-    width: 100px;
 }
 
 .footer {
